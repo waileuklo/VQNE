@@ -2,7 +2,7 @@
 VQNE: Variational Quantum Network Embedding with Application to Network Alignment
 
 This notebook implements the two algorithms of the VQNE paradigm.
-To run the notebook,
+To run the notebook (on Linux, not Windows, as at least one supporting package for the TorchQuantum library is not available on Windows),
 1. clone the repository to your local directory;
 2. change the path of the _gistfile1.txt_ to the _path_to_gistfile1.txt_ in your local directory;
 3. change the path of the code directory to the _path_to_Code_ in your local directory;
@@ -17,7 +17,7 @@ To run the notebook,
     - `target_edge_file = 'tt-net.txt'`
     - `percentage = 10, 20, 30, 40 or 50`
 6. run all the cells except the first one;
-7. if you run the notebook on Google Colab, you may optionally mount your Google Drive by running the first cell to access the gistfile1.txt and the datasets, as well as saving the output on the Google Drive.
+7. if you run the notebook on Google Colab, you may optionally mount your Google Drive by running the first cell to access the gistfile1.txt and the datasets, as well as saving the output to Google Drive.
 
 # References
 - [VQNE: Variational Quantum Network Embedding with Application to Network Alignment](https://dl.acm.org/doi/10.1145/3580305.3599542)
